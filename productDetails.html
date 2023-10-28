@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome cdm-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+    <!--Google font Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Product_Details - RedStore | E-commerce website design</title>
+</head>
+<body>
+        <!-- .........Navbar............-->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="./cart.html"><img src="./images/cart.png" height="30px" width="30px" alt=""></a>
+                <img src="./images/menu.png" class="menu-icon" alt="" onclick="menuToggle()">
+            </div>
+        </div>
+     <!-- ....X.....Navbar.......X.....-->
+      
+
+     <!--Single product Details-->
+     <div class="smallContainer single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="./images/gallery-1.jpg" width="100%" alt="" id="productImg">
+
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="./images/gallery-1.jpg" width="100%" alt=""
+                        class="smallImg">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="./images/gallery-2.jpg" width="100%" alt=""
+                        class="smallImg">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="./images/gallery-3.jpg" width="100%" alt=""
+                        class="smallImg">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="./images/gallery-4.jpg" width="100%" alt=""
+                        class="smallImg">
+                    </div>     
+                </div>
+
+            </div>
+            <div class="col-2">
+                <p>Home/T-shirt</p>
+                <h1>Red Printed T-shirt</h1>
+                <h4>$50.00</h4>
+                <select name="" id="">
+                    <option value="">Select Size</option>
+                    <option value="">Small</option>
+                    <option value="" selected>Medium</option>
+                    <option value="">Large</option>
+                    <option value="">XL</option>
+                    <option value="">XXL</option>
+                </select>
+                <input type="number" value="1" min="0" max="20">
+                <a href="" class="btn">Add To Cart</a>
+
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>A vibrant red t-shirt featuring eye-catching prints, perfect for adding a pop of color and style to your casual wardrobe.</p>
+            </div>
+        </div>
+     </div>
+
+
+  <div class="smallContainer">
+    <div class="row">
+        <div class="col-4">
+            <img src="./images/product-1.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-2.jpg" alt="">
+            <h4>Running Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$130.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-3.jpg" alt="">
+            <h4>Jogging Pants</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+            </div>
+            <p>$70.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-4.jpg" alt="">
+            <h4>Puma T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$70.00</p>
+        </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our APP</h3>
+                <p>Download APP for Android and IOS </p>
+                <div class="app-logo">
+                    <img src="./images/app-store.png" alt="">
+                    <img src="./images/play-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/logo-white.png" alt="">
+                <p>Our Purpose is to Sustainably make the pleasure and banefits of Sports Accessible to the Many </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Affiliate Program</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTbe</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Amrit Pandit</p>
+    </div>
+  </div>
+
+
+  <!--Js for toggle bottom-->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menuToggle(){
+        if(MenuItems.style.maxHeight == "0px" )
+        {
+            MenuItems.style.maxHeight = "200px";
+            MenuItems.style.zIndex = "2";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+  </script>
+
+
+  <!--Js for product image gallery-->
+  <script>
+   var Productmg = document.getElementById("productImg");
+   var SmallImg = document.getElementsByClassName("smallImg");
+   
+   SmallImg[0].onclick = function()
+    {
+        Productmg.src = SmallImg[0].src;
+    }
+
+    SmallImg[1].onclick = function()
+    {
+        Productmg.src = SmallImg[1].src;
+    }
+
+    SmallImg[2].onclick = function()
+    {
+        Productmg.src = SmallImg[2].src;
+    }
+
+    SmallImg[3].onclick = function()
+    {
+        Productmg.src = SmallImg[3].src;
+    }
+    
+  </script>
+    
+</body>
+</html>

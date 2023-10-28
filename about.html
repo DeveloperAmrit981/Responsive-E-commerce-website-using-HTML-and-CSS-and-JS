@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome cdm-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+    <!--Google font Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>About- RedStore | E-commerce website design</title>
+</head>
+<body>
+        <!-- .........Navbar............-->
+    <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="./cart.html"><img src="./images/cart.png" height="30px" width="30px" alt=""></a>
+                <img src="./images/menu.png" class="menu-icon" alt="" onclick="menuToggle()">
+            </div>
+    </div>
+     <!-- ....X.....Navbar.......X.....-->
+      
+    <!--About Page-->
+    <div class="smallContainer">
+        <div class="aboutContainer">
+            <div class="aboutCompanyName">
+                <h1>ABOUT <span style="color:red">RED</span>STORE </h1>
+            </div>
+            <div class="aboutContent">
+                <h2>Who we are?</h2>
+                <p><span style="color:red">Red</span>store, a premier clothing company, offers a vibrant array of fashion essentials. From trendy streetwear to elegant formal attire, discover your unique style with quality garments, all at <span style="color:red">Red</span>store.</p>
+                <br>
+                <h3>What Makes us Unique!</h3>
+                <p>
+                    What makes us unique at <span style="color:red">Red</span>store is our unwavering commitment to style and quality. We curate fashion that reflects the latest trends while ensuring exceptional craftsmanship. Our dedication to customer satisfaction, quick delivery, and accessible prices sets us apart.
+                    <br><br>
+                    Experience a seamless blend of fashion-forward choices and outstanding service at <span style="color:red">Red</span>store.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our APP</h3>
+                <p>Download APP for Android and IOS </p>
+                <div class="app-logo">
+                    <img src="./images/app-store.png" alt="">
+                    <img src="./images/play-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/logo-white.png" alt="">
+                <p>Our Purpose is to Sustainably make the pleasure and banefits of Sports Accessible to the Many </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Affiliate Program</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTbe</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Amrit Pandit</p>
+    </div>
+    </div>
+
+
+  <!--Js for toggle bottom-->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menuToggle(){
+        if(MenuItems.style.maxHeight == "0px" )
+        {
+            MenuItems.style.maxHeight = "200px";
+            MenuItems.style.zIndex = "2";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+  </script>
+
+
+  <!--Js for product image gallery-->
+  <script>
+   var Productmg = document.getElementById("productImg");
+   var SmallImg = document.getElementsByClassName("smallImg");
+   
+   SmallImg[0].onclick = function()
+    {
+        Productmg.src = SmallImg[0].src;
+    }
+
+    SmallImg[1].onclick = function()
+    {
+        Productmg.src = SmallImg[1].src;
+    }
+
+    SmallImg[2].onclick = function()
+    {
+        Productmg.src = SmallImg[2].src;
+    }
+
+    SmallImg[3].onclick = function()
+    {
+        Productmg.src = SmallImg[3].src;
+    }
+    
+  </script>
+    
+</body>
+</html>
