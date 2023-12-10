@@ -1,6 +1,7 @@
 # Responsive-E-commerce-website-using-HTML-and-CSS-and-JS
 This is a responsive e-commerce website Built using HTML CSS and javaScript. Please checkout this video below to know about the website. 
-To view this on your device copy and paste this link on your browser :
+To view this on your device use this link
+:
 
 https://developeramrit981.github.io/Responsive-E-commerce-website-using-HTML-and-CSS-and-JS/index.html
 
